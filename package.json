@@ -1,0 +1,19 @@
+{
+  "name": "shrisha-hegde",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pdf": "node generate-pdf.js",
+    "pdf:watch": "node generate-pdf.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chokidar": "^5.0.0",
+    "puppeteer": "^24.42.0"
+  }
+}
